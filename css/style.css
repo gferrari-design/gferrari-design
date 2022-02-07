@@ -1,0 +1,453 @@
+@font-face {
+  font-family: gotham;
+  src: url(../font/Gotham-Book.otf);
+}
+
+@font-face {
+  font-family: gotham;
+  src: url(../font/Gotham-Medium.otf);
+  font-weight: bold;
+}
+
+body {
+  font-family: gotham;
+}
+
+.mycontainer {
+  margin-top: 12px;
+}
+
+.row {
+  justify-content: center;
+}
+
+#logo {
+  width: 120px;
+}
+
+#header {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#header>a {
+  text-decoration: none;
+  color: black;
+}
+
+#work {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+#fotoprofilo {
+  min-height: 383px;
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-bottom: 12px;
+  background-image: url(../immagini/profilo.png);
+  background-clip: content-box;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.paragrafo {
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-bottom: 12px;
+}
+
+iframe {
+  border-style: solid;
+  border-width: 2px;
+  min-height: 383px;
+  width: 100%;
+  margin-bottom: 12px;
+}
+
+.contatti {
+  display: flex;
+}
+
+.icone {
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+}
+
+.copertine {
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+}
+
+.mycol {
+  padding: 6px;
+  position: relative;
+}
+
+.griglia {
+  height: 383px;
+}
+
+.grigliapiccola {
+  height: 250px;
+}
+
+.immaginigriglia {
+  height: 100%;
+  width: 100%;
+  border-style: solid;
+  border-width: 2px;
+}
+
+.cortometraggio {
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-bottom: 12px;
+}
+
+.video {
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-top: 6px;
+  padding-bottom: 12px;
+}
+
+.riga1 {
+  margin-bottom: 12px;
+}
+
+#calendario1 {
+  min-height: 383px;
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-bottom: 12px;
+  background-image: url(../immagini/calendario1.png);
+  background-clip: content-box;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#calendario2 {
+  padding: 6px;
+  background-image: url(../immagini/calendario2.png);
+  background-clip: content-box;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#calendario3 {
+  padding: 6px;
+  background-image: url(../immagini/calendario3.png);
+  background-clip: content-box;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#calendario4 {
+  padding: 6px;
+  background-image: url(../immagini/calendario4.png);
+  background-clip: content-box;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#coperta1 {
+  min-height: 383px;
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-bottom: 12px;
+  background-image: url(../immagini/coperta1.png);
+  background-clip: content-box;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#sedia1 {
+  min-height: 383px;
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-bottom: 12px;
+  background-image: url(../immagini/sedia1.png);
+  background-clip: content-box;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#trenino1 {
+  min-height: 383px;
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-bottom: 12px;
+  background-image: url(../immagini/trenino1.png);
+  background-clip: content-box;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#trenino2 {
+  padding: 6px;
+  background-image: url(../immagini/trenino2.png);
+  background-clip: content-box;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#trenino3 {
+  padding: 6px;
+  background-image: url(../immagini/trenino3.png);
+  background-clip: content-box;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#trenino4 {
+  padding: 6px;
+  background-image: url(../immagini/trenino4.png);
+  background-clip: content-box;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#trenino5 {
+  padding: 6px;
+  background-image: url(../immagini/trenino5.png);
+  background-clip: content-box;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#trenino6 {
+  padding: 6px;
+  background-image: url(../immagini/trenino6.png);
+  background-clip: content-box;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#trenino7 {
+  padding: 6px;
+  background-image: url(../immagini/trenino7.png);
+  background-clip: content-box;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#monogramma1 {
+  min-height: 383px;
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-bottom: 12px;
+  background-image: url(../immagini/monogramma1.png);
+  background-clip: content-box;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#monogramma2 {
+  padding: 6px;
+  background-image: url(../immagini/monogramma2.png);
+  background-clip: content-box;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#monogramma3 {
+  padding: 6px;
+  background-image: url(../immagini/monogramma3.png);
+  background-clip: content-box;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#monogramma4 {
+  padding: 6px;
+  background-image: url(../immagini/monogramma4.png);
+  background-clip: content-box;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#monogramma5 {
+  padding: 6px;
+  background-image: url(../immagini/monogramma5.png);
+  background-clip: content-box;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#beer1 {
+  min-height: 383px;
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-bottom: 12px;
+  background-image: url(../immagini/beer1.png);
+  background-clip: content-box;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#beer2 {
+  padding: 6px;
+  background-image: url(../immagini/beer2.png);
+  background-clip: content-box;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#aim1 {
+  min-height: 383px;
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-bottom: 12px;
+  background-image: url(../immagini/aim1.png);
+  background-clip: content-box;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#aim2 {
+  padding: 6px;
+  background-image: url(../immagini/aim2.png);
+  background-clip: content-box;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#aim3 {
+  padding: 6px;
+  background-image: url(../immagini/aim3.png);
+  background-clip: content-box;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#aim4 {
+  padding: 6px;
+  background-image: url(../immagini/aim4.png);
+  background-clip: content-box;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#aim5 {
+  padding: 6px;
+  background-image: url(../immagini/aim5.png);
+  background-clip: content-box;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#bogia1 {
+  min-height: 383px;
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-bottom: 12px;
+  background-image: url(../immagini/bogia1.png);
+  background-clip: content-box;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h3{
+  text-align: center;
+    font-size: 4vw;
+    padding-bottom: 40px;
+}
+
+#curriculum {
+  text-decoration: none;
+  color: black;
+}
+
+#mappa{
+  padding-left: 6px;
+  padding-right: 6px;
+  
+}
+
+.scrittecopertine {
+  font-size: 2vw;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.9);
+  opacity: 0%;
+  transition: all 200ms ease-in;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+}
+
+.scrittecopertine:hover {
+  opacity: 100%;
+}
+
+@media screen and (max-width: 992px) {
+  .scrittecopertine {
+    font-size: 10vw;
+  }
+}
+
+table {
+  margin-top: 40px;
+  width: 100%;
+  color: gray;
+}
+
+.finestra {
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  color: gray;
+  padding: 15px;
+  width: 100%;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+#bottone {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}

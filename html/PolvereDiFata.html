@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name=viewport content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="../immagini/logo.svg">
+  <title>gferrari.design</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> <!-- file bootstrap -->
+  <link rel="stylesheet" href="../css/style.css"> <!-- file css -->
+  <link rel="stylesheet" href="../css/animsition.min.css">
+</head>
+
+<body>
+  <div class="animsition">
+    <div class="container-fluid mycontainer">
+
+      <div class="row">
+        <img src="../immagini/logo.svg" id="logo" alt="logo">
+      </div>
+
+      <div class="row">
+        <p id="header">
+          <a href="../index.html" target=”_blank” class="animsition-link" data-animsition-out-class="fade-out" data-animsition-out-duration="400">ABOUT</a>
+          <a href="work.html" id="work" target=”_blank” class="animsition-link" data-animsition-out-class="fade-out" data-animsition-out-duration="400">WORK</a>
+          <a href="contact.html" target=”_blank” class="animsition-link" data-animsition-out-class="fade-out" data-animsition-out-duration="400">CONTACT</a>
+        </p>
+      </div>
+
+      <div class="row riga1">
+        <div class="col-md-5 cortometraggio">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" title="Polvere di Fata" src="../immagini/PolvereDiFata.mp4" allowfullscreen></iframe>
+          </div>
+        </div>
+
+        <div class="col-md-4 offset-md-1 paragrafo">
+          <p> <b>POLVERE DI FATA</b> <br>
+            <br>
+            "Polvere di Fata" è un cortometraggio realizzato in occasione del "100 ore Film Festival di Torino". <br>
+            Ogni troupe aveva a disposizione 100 ore per ideare, girare e montare un cortometraggio di massimo dieci minuti. Il countdown partiva dall'annuncio di sei parametri segreti: un oggetto di scena, un elemento di costume indossato, una
+            frase, un elemento vagante, un'inquadratura e un suono in presa diretta. Prima di conoscere i parametri è obbligatorio scegliere il genere, in questo caso commedia per cui ci siamo divertiti a creare anche il jingle perfetto per una
+            televendita.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- animsition.js -->
+    <script src="../js/animsition.min.js"></script>
+    <script>
+      $(document).ready(function() {
+        $('.animsition').animsition();
+      });
+    </script>
+
+</body>
+
+</html>

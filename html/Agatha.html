@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name=viewport content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="../immagini/logo.svg">
+  <title>gferrari.design</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> <!-- file bootstrap -->
+  <link rel="stylesheet" href="../css/style.css"> <!-- file css -->
+  <link rel="stylesheet" href="../css/animsition.min.css">
+</head>
+
+<body>
+  <div class="animsition">
+    <div class="container-fluid mycontainer">
+
+      <div class="row">
+        <img src="../immagini/logo.svg" id="logo" alt="logo">
+      </div>
+
+      <div class="row">
+        <p id="header">
+          <a href="../index.html" target=”_blank” class="animsition-link" data-animsition-out-class="fade-out" data-animsition-out-duration="400">ABOUT</a>
+          <a href="work.html" id="work" target=”_blank” class="animsition-link" data-animsition-out-class="fade-out" data-animsition-out-duration="400">WORK</a>
+          <a href="contact.html" target=”_blank” class="animsition-link" data-animsition-out-class="fade-out" data-animsition-out-duration="400">CONTACT</a>
+        </p>
+      </div>
+
+      <div class="row riga1">
+        <div class="col-md-5 cortometraggio">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" title="Agatha" src="../immagini/Agatha.mp4" allowfullscreen></iframe>
+          </div>
+        </div>
+
+        <div class="col-md-4 offset-md-1 paragrafo">
+          <p> <b>AGATHA</b> <br>
+            <br>
+            "Agatha" è un cortometraggio realizzato in occasione del "50 ore Film Festival di Torino". <br>
+            Ogni troupe aveva a disposizione 50 ore per ideare, girare e montare un cortometraggio di massimo cinque minuti. Il countdown partiva dall'annuncio di tre parametri segreti: un oggetto di scena (telefono con cornetta), un elemento di
+            costume indossato (un'antenna) e una frase ("Il messaggio è in codice binario, devi solo decifrarlo"). Prima di conoscere i parametri è obbligatorio scegliere il genere, in questo caso horror. Il risultato è un soggetto che porta allo
+            stremo il
+            rapporto con la tecnologia, ispirato ad una storia vera.
+          </p>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- animsition.js -->
+    <script src="../js/animsition.min.js"></script>
+    <script>
+      $(document).ready(function() {
+        $('.animsition').animsition();
+      });
+    </script>
+</body>
+
+</html>
