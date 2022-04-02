@@ -50,7 +50,7 @@ body {
   background-clip: content-box;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 
 .paragrafo {
@@ -129,7 +129,7 @@ iframe {
   background-clip: content-box;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 
 #calendario2 {
@@ -138,7 +138,7 @@ iframe {
   background-clip: content-box;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 
 #calendario3 {
@@ -147,7 +147,7 @@ iframe {
   background-clip: content-box;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 
 #calendario4 {
@@ -156,7 +156,7 @@ iframe {
   background-clip: content-box;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 
 #coperta1 {
@@ -168,7 +168,7 @@ iframe {
   background-clip: content-box;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 
 #sedia1 {
@@ -180,7 +180,7 @@ iframe {
   background-clip: content-box;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 
 #trenino1 {
@@ -192,7 +192,7 @@ iframe {
   background-clip: content-box;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 
 #trenino2 {
@@ -201,7 +201,7 @@ iframe {
   background-clip: content-box;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 
 #trenino3 {
@@ -210,7 +210,7 @@ iframe {
   background-clip: content-box;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 
 #trenino4 {
@@ -219,7 +219,7 @@ iframe {
   background-clip: content-box;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 
 #trenino5 {
@@ -228,7 +228,7 @@ iframe {
   background-clip: content-box;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 
 #trenino6 {
@@ -237,7 +237,7 @@ iframe {
   background-clip: content-box;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 
 #trenino7 {
@@ -246,7 +246,7 @@ iframe {
   background-clip: content-box;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 
 #monogramma1 {
@@ -258,7 +258,7 @@ iframe {
   background-clip: content-box;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 
 #monogramma2 {
@@ -267,7 +267,7 @@ iframe {
   background-clip: content-box;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 
 #monogramma3 {
@@ -276,7 +276,7 @@ iframe {
   background-clip: content-box;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 
 #monogramma4 {
@@ -285,7 +285,7 @@ iframe {
   background-clip: content-box;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 
 #monogramma5 {
@@ -294,7 +294,7 @@ iframe {
   background-clip: content-box;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 
 #beer1 {
@@ -306,7 +306,7 @@ iframe {
   background-clip: content-box;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 
 #beer2 {
@@ -315,7 +315,7 @@ iframe {
   background-clip: content-box;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 
 #aim1 {
@@ -327,7 +327,7 @@ iframe {
   background-clip: content-box;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 
 #aim2 {
@@ -336,7 +336,7 @@ iframe {
   background-clip: content-box;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 
 #aim3 {
@@ -345,7 +345,7 @@ iframe {
   background-clip: content-box;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 
 #aim4 {
@@ -354,7 +354,7 @@ iframe {
   background-clip: content-box;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 
 #aim5 {
@@ -363,7 +363,7 @@ iframe {
   background-clip: content-box;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 
 #bogia1 {
@@ -375,7 +375,7 @@ iframe {
   background-clip: content-box;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 
 h3{
